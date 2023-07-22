@@ -12,17 +12,20 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="Hello, DID Holder!" />
+        android:text="출입 증명서"
+        android:textSize="50sp" />
 
     <Button
         android:id="@+id/btn_issue_test_cred"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="테스트 증명서 발급" />
+        android:text="증명서 발급"
+        android:background="@drawable/custom" />
 
     <Button
         android:id="@+id/btn_nav_to_cred_list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="증명서 목록 조회" />
+        android:text="증명서 목록"
+        android:background="@drawable/custom" />
 </LinearLayout>
